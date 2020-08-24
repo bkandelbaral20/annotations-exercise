@@ -20,6 +20,8 @@ public class Author extends Person {
         return books;
     }
 
+
+    @Deprecated
     public List<String> publishedBooks() {
         return books;
     }
