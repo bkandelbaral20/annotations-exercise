@@ -28,7 +28,7 @@ public class Author extends Person {
         books.add(book);
     }
 
-    @Deprecated
+    @SuppressWarnings("unchecked")
     public String sortName() {
         return String.format("%s, %s", lastName, firstName);
     }
